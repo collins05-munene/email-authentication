@@ -1,0 +1,9 @@
+{% extends 'base.html' %}
+
+{% block content %}
+    <div class="card hero-card">
+        <h1>Secure Login Made Simple</h1>
+        <p>Register or sign in instantly using your email and a one-time password.</p>
+        <a href="{% url 'request-otp' %}" class="btn">Get Started</a>
+    </div>
+{% endblock %}

@@ -1,0 +1,14 @@
+{% extends 'base.html' %}
+
+{% block content %}
+    <div class="card">
+        <h2>Verify OTP</h2>
+        <p>Check your email and enter the 6 digit code.</p>
+        <form method="POST">
+            {% csrf_token %}
+            {{form.otp}}
+            {{form.errors}}
+            <button type="submit" class="btn">Verify OTP</button>
+        </form>
+    </div>
+{% endblock %}

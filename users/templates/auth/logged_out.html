@@ -1,0 +1,9 @@
+{% extends 'base.html' %}
+
+{% block content %}
+    <div class="card success-card">
+        <h1>You've been logged out</h1>
+        <p>Your session has ended safely.</p>
+        <a href="{% url 'request-otp' %}" class="btn">Login Again</a>
+    </div>
+{% endblock %}

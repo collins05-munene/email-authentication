@@ -1,0 +1,103 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background: #f5f7fb;
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: cenetr;
+    color: #1f2937;
+}
+
+.container {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+}
+
+.card {
+    background: #fff;
+    border-radius: 24px;
+    max-width: 460px;
+    padding: 60px;
+    box-shadow: 0 12px 35px rgba(0,0,0,0.8)
+}
+
+.hero-card {
+    text-align: center;
+}
+
+h1, h2 {
+    margin-bottom: 12px;
+}
+
+p {
+    margin-bottom: 24px;
+    color: #6b7280;
+}
+
+.input {
+    width: 100%;
+    padding: 16px;
+    border: 1px solid #d1d5db;
+    border-radius: 14px;
+    margin-bottom: 16px;
+    font-size: 16px
+}
+
+.input:focus {
+    outline: none;
+    border-color: #2563eb;
+}
+
+.btn {
+    width: 100%;
+    border: none;
+    border-radius: 14px;
+    padding: 16px;
+    background: #2563eb;
+    color: white;
+    cursor: pointer;
+    text-decoration: none;
+    display: inline-block;
+    text-align: center
+}
+
+.btn:hover {
+    opacity: .95;
+}
+
+.danger-btn {
+    background: #dc2626;
+}
+
+.login-success {
+    max-width: 400px;
+    margin: 80px auto;
+    padding: 30px;
+    background: #ffffff;
+    border-radius: 12px;
+    box-shadow: 0 6px 18px rgba(0,0,0,0.1);
+    text-align: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.login-success h1 {
+    color: #2e7d32; /* Green tone for success */
+    font-size: 28px;
+    margin-bottom: 15px;
+}
+
+
+.login-success p {
+    font-size: 16px;
+    color: #555;
+    margin-bottom: 25px;
+}
